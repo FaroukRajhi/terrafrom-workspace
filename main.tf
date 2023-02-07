@@ -12,7 +12,7 @@ resource "aws_instance" "instance-one" {
 
 // We can use different size of instance for different environment also, for that we need to modify our file as below
 
-// After creating a workspace using "terraform workspace new staging" then initplan apply
+// After creating a workspace using "terraform workspace new stg" then init plan apply
 // terrafom workspace new dev
 // terraform workspace new prod
 provider "aws" {
